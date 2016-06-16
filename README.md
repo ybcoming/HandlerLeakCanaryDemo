@@ -16,4 +16,10 @@
                                         debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
                                         releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
                                         testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
-* 2,
+* 2,创建一个extends Application的MyAppilcation;并在onCreate方法中初始化LeakCanary:书写LeakCanary.install(this);
+* ps:记得在AndroidManifest文件中配置你的MyApplication
+
+## 这样你的Leakcanary就可以检测你的内存是否泄露了,具体测试泄露代码和修正代码,请参考本Demo;
+## Demo代码中注释部分为会造成内存泄漏的代码,优化代码为正常代码.
+
+
