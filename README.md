@@ -1,3 +1,5 @@
+![](http://image.yanrt.com/uploads/allimg/160383/4.gif)
+
 # HandlerLeakCanaryDemo
 关于Handler引起内存泄露的Demo
 
